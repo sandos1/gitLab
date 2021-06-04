@@ -2,6 +2,7 @@ package com.sandona.gitlab
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -9,15 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         print("dev first changes")
         print("dev first changes amend")
-    }
 
-    fun add(num1:Int,num2:Int):Int{
-        return num1+num2;
-    }
-    fun division(num1:Int,num2:Int):Int{
-        return num1/num2;
-    }
-    fun modulo(num1:Int,num2:Int):Int{
-        return num1%num2;
+        Toast.makeText(this,"Welcome soro",Toast.LENGTH_LONG).show()
     }
 }

@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
         print("dev first changes amend")
 
         Toast.makeText(this,"Welcome soro",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"change on dev",Toast.LENGTH_LONG).show()
     }
 }
